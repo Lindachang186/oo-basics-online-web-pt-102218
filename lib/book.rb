@@ -5,6 +5,8 @@ class Book
   def title
     @title
   end
+  def author=(arthor)
+    @arthor = arthor
 end
 
 Book.new("And Then There Were None")
